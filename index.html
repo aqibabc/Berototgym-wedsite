@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM LANDING PAGE</title>
+    <!--#################### FAVICON LINK #######################-->
+    <link rel="icon" type="image/x-icon" href="./Assets/images/favicon.png">
+    <!--#################### STYLE LINK #######################-->
+    <link rel="stylesheet" href="./Assets/style/style.css">
+    <!--#################### ICON LINK #######################-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!--#################### HEADER #######################-->
+    <header class="header" id="header" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2500">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="./Assets/images/logo-nav.png" alt="logo">BEROTOT
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">PROGRAAM</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">CHOOSE US</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">PRICING</a>
+                    </li>
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Register Now</a>
+                    </div>
+                </ul>
+                <div class="nav__close" onclick="hide()">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" onclick="show()">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!--#################### MAIN #######################-->
+    <main class="main">
+        <!--#################### HOME #######################-->
+        <section class="section home" id="home">
+            <div class="home__container container grid">
+                <div class="home__date" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2500">
+                    <h2 class="home__subtittle">MAKE YOUR</h2>
+                    <h1 class="home__title">BODY SHAPE</h1>
+                    <p class="home__description">In here we will help you to shape and build your ideal
+                        body and live your life to the fullest.</p>
+                    <a href="#" class="button button__flex">Get Started <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="home__images">
+                    <img src="./Assets/images/home-img.png" alt="home image" class="home__img" data-aos="fade-up"
+                        data-aos-delay="50" data-aos-duration="2500">
+                    <div class="home__triangle home__triangile-3"></div>
+                    <div class="home__triangle home__triangile-2"></div>
+                    <div class="home__triangle home__triangile-1"></div>
+                </div>
+            </div>
+        </section>
+        <!--#################### LOGO #######################-->
+        <section class="section logo" id="logo">
+            <div class="logo__container container grid">
+                <img src="./Assets/images/logo1.png" alt="logo image" class="logos__img"  data-aos="fade-left" data-aos-delay="50"
+                data-aos-duration="2500">
+                <img src="./Assets/images/logo2.png" alt="logo image" class="logos__img"  data-aos="fade-up" data-aos-delay="50"
+                data-aos-duration="2500">
+                <img src="./Assets/images/logo3.png" alt="logo image" class="logos__img"  data-aos="fade-down" data-aos-delay="50"
+                data-aos-duration="2500">
+                <img src="./Assets/images/logo4.png" alt="logo image" class="logos__img"  data-aos="fade-right" data-aos-delay="50"
+                data-aos-duration="2500">
+            </div>
+        </section>
+        <!--#################### PROGRAM #######################-->
+        <section class="section program" id="program">
+            <div class="container">
+                <div class="section__data" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2500">
+                    <h2 class="section__subtitle">Our Program</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">BUILD YOUR</h1>
+                        <h1 class="section__title">BEST BODY</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="program__container grid">
+                <div class="program__card"  data-aos="fade-left" data-aos-delay="50"
+                data-aos-duration="2500">
+                    <div class="program__shape">
+                        <img src="./Assets/images/program1.png" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Flex Muscle</h3>
+                    <p class="program__description">Creating tension that's temporarily making the muscle fibers smaller
+                        or contracted.</p>
+                    <a href="#" class="program__button">
+                        <i class="ri-arrow-right-line"></i> </a>
+                </div>
+                <div class="program__card"  data-aos="fade-up" data-aos-delay="50"
+                data-aos-duration="2500">
+                    <div class="program__shape">
+                        <img src="./Assets/images/program2.png" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Cardio Exercise</h3>
+
+                    <p class="program__description">Exercise your heart rate up and keeps it up for a prolonged period
+                        of time.</p>
+
+                    <a href="#" class="program__button">
+                        <i class="ri-arrow-right-line"></i> </a>
+                </div>
+                <div class="program__card"  data-aos="fade-down" data-aos-delay="50"
+                data-aos-duration="2500">
+                    <div class="program__shape">
+                        <img src="./Assets/images/program3.png" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Basic Yoga</h3>
+                    <p class="program__description">Diaphragmatic this is the most common breathing technique you'll
+                        find in yoga.</p>
+                    <a href="#" class="program__button">
+                        <i class="ri-arrow-right-line"></i> </a>
+                </div>
+                <div class="program__card"  data-aos="fade-right" data-aos-delay="50"
+                data-aos-duration="2500">
+                    <div class="program__shape">
+                        <img src="./Assets/images/program4.png" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Weight Lifting</h3>
+                    <p class="program__description">Attempts a maximum weight single lift of a barbell loaded with
+                        weight plates.</p>
+                    <a href="#" class="program__button">
+                        <i class="ri-arrow-right-line"></i> </a>
+                </div>
+            </div>
+        </section>
+        <!--#################### CHOOSE US #######################-->
+        <section class="section choose" id="choose">
+            <div class="choose__overflow">
+                <div class="choose__container container grid">
+                    <div class="choose__content" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2500">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">Best Reason</h2>
+                            <div class="section__titles">
+                                <h1 class="section__title-border">WHY</h1>
+                                <h1 class="section__title">CHOOSE US ?</h1>
+                            </div>
+                        </div>
+                        <p class="choose__description">Choose your favorite class and start now. Remember the only bad
+                            workout <br> is the one you didn't do.</p>
+                        <div class="choose__data" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2500">
+                            <div class="choose__group">
+                                <h3 class="choose__number">200+</h3>
+                                <p class="choose__subtitle">Total Members</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">50+</h3>
+                                <p class="choose__subtitle">Best trainers</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">25+</h3>
+                                <p class="choose__subtitle">Programs</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">100+</h3>
+                                <p class="choose__subtitle">Awards</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose__images" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2500">
+                        <img src="./Assets/images/choose-img.png" alt="choose image" class="choose__img"
+                            data-aos="fade-up" data-aos-delay="50" data-aos-duration="2500">
+                        <div class="choose__triangle choose__triangile-1"></div>
+                        <div class="choose__triangle choose__triangile-2"></div>
+                        <div class="choose__triangle choose__triangile-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--#################### PRICING #######################-->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <div class="section__data" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2500">
+                    <h2 class="section__subtitle">Pricing</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">OUR</h1>
+                        <h1 class="section__title">SPECIAL PLAN</h1>
+                    </div>
+                </div>
+                <div class="pricing__container grid">
+                    <article class="pricing__card" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2500">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="./Assets/images/pricing1.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">BASIC PACKAGE</h1>
+                            <h2 class="pricing__number">$120</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 5 Days In A Week</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 01 Sweatshirt</li>
+                            <li class="pricing__item opacity"><i class="ri-checkbox-circle-line"></i> 01 Bottle of
+                                Protein</li>
+                            <li class="pricing__item opacity"><i class="ri-checkbox-circle-line"></i> Access to Videos
+                            </li>
+                            <li class="pricing__item opacity"><i class="ri-checkbox-circle-line"></i> Muscle Stretching
+                            </li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">Purchase Now <i
+                                class="ri-arrow-right-line"></i></a>
+                    </article>
+
+
+                    <article class="pricing__card pricing__card__active" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2500">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="./Assets/images/pricing2.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">PREMIUM PACKAGE</h1>
+                            <h2 class="pricing__number">$240</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 5 Days In A Week</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 01 Sweatshirt</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 01 Bottle of Protein</li>
+                            <li class="pricing__item opacity"><i class="ri-checkbox-circle-line"></i> Access to Videos
+                            </li>
+                            <li class="pricing__item opacity"><i class="ri-checkbox-circle-line"></i> Muscle Stretching
+                            </li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">Purchase Now <i
+                                class="ri-arrow-right-line"></i></a>
+                    </article>
+
+                    <article class="pricing__card" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2500">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="./Assets/images/pricing3.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">DIAMOND PACKAGE</h1>
+                            <h2 class="pricing__number">$240</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 5 Days In A Week</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 01 Sweatshirt</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> 01 Bottle of Protein</li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> Access to Videos
+                            </li>
+                            <li class="pricing__item"><i class="ri-checkbox-circle-line"></i> Muscle Stretching</li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">Purchase Now <i
+                                class="ri-arrow-right-line"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+        <div class="container footer-con">
+            <p> <a href="/index.html" class="nav__logo">
+                    <img src="./Assets/images/logo-nav.png" alt="">
+                    BEROTOT
+                </a> <span>&copy; 2023 By Ijjaz Ahmad 💖 All Right Reserved.</span></p>
+        </div>
+    </footer>
+    <script src="./Assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
